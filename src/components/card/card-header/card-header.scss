@@ -1,0 +1,19 @@
+.st-card-header {
+    min-height: 25px;
+    padding: 10px 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.st-card-header-title {
+    margin: 5px 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.st-card-header-subtitle {
+    margin: 5px 0;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif
+}

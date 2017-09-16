@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
-  <title>Stencil Starter App</title>
+  <title>Stencil Card App</title>
   <script src="/build/app.js"></script>
 
   <meta name="theme-color" content="#16161d">
@@ -17,7 +17,20 @@
 </head>
 <body>
 
-  <my-name first="Stencil" last="JS"></my-name>
+  <st-card>
+    <st-card-header>
+        <span class="st-card-header-title">Title</span>
+        <span class="st-card-header-subtitle">Subtitle</span>
+    </st-card-header>
+
+    <st-card-content>
+      Here come some text!
+    </st-card-content>      
+
+    <st-card-bottom>
+      <button>Action!</button>
+    </st-card-bottom>
+  </st-card>
 
 </body>
 </html>
