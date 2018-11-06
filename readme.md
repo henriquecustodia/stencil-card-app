@@ -1,4 +1,4 @@
-Card component using stanciljs <3 
+Card component using stencilJS ❤
 
 ## Getting Started
 
